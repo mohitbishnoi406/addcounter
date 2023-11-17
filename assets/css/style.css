@@ -151,15 +151,15 @@ right: 10%;
     border-radius: 4px;
     border: 1px solid #128DFF;
     color: var(--fc-white);
-    background: var(--fc-blue);
+    background:linear-gradient(138deg, #128DFF 0%, #1444EF 100%) ;
 }
 .savebtn:hover {
-    background: linear-gradient(138deg, #128DFF 0%, #1444EF 100%);
-    color: var(--fc-white);
+    background: var(--fc-white);
+    color: var(--fc-blue);
 }
 .icon-btn{
 min-width: 10px;
-min-height: 50px;
+min-height: 30px;
 padding: 2px 5px;
 border-radius: 4px;
 border: none;
